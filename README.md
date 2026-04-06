@@ -8,23 +8,31 @@ Create AI agents and deploy them to Telegram, Discord, WhatsApp, Slack, WeChat a
 
 | Platform | File | Size |
 |----------|------|------|
-| macOS (Apple Silicon) | [ZoyaChat-0.1.0-arm64.dmg](https://github.com/zoyachat/zoyachat-releases/releases/download/v0.1.0/ZoyaChat-0.1.0-arm64.dmg) | 106 MB |
-| Windows | Coming soon | — |
+| macOS (Apple Silicon) | [ZoyaChat-0.1.0-arm64.dmg](https://github.com/zoyachat/zoyachat-releases/releases/download/v0.1.0/ZoyaChat-0.1.0-arm64.dmg) | 95 MB |
+| Windows (64-bit) | [ZoyaChat.Setup.0.1.0.exe](https://github.com/zoyachat/zoyachat-releases/releases/download/v0.1.0/ZoyaChat.Setup.0.1.0.exe) | — |
 
 ## macOS Install / macOS 安装
 
-Download .dmg → Drag to Applications → Open Terminal and run:
+1. Download .dmg → Drag ZoyaChat to Applications
+2. Right-click ZoyaChat.app → Open → Open in dialog
+3. Or open Terminal and run:
 
-下载 .dmg → 拖入「应用程序」→ 打开终端执行：
+1. 下载 .dmg → 拖入「应用程序」
+2. 右键点击 ZoyaChat.app → 打开 → 弹窗中点「打开」
+3. 或打开终端执行：
 
 ```bash
 codesign --force --deep --sign - /Applications/ZoyaChat.app && xattr -cr /Applications/ZoyaChat.app
 ```
 
-Then double-click ZoyaChat to open. / 然后双击打开 ZoyaChat。
+> First launch only. After that, double-click works normally.
+> 仅首次需要。之后双击即可正常打开。
 
-> This step is required because the app is not notarized by Apple. It is NOT malware.
-> 此步骤是因为应用未经 Apple 公证，并非恶意软件。
+## Windows Install / Windows 安装
+
+Download and run the .exe installer. Follow the setup wizard.
+
+下载并运行 .exe 安装程序，按向导完成安装。
 
 ## Links
 
